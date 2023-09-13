@@ -1,0 +1,25 @@
+.div-timer{
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF; ;
+    font-family: 'DeusNolan', sans-serif;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        text-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 25px #c66d2d, 0 0 35px #c66d2d, 0 0 45px #c66d2d, 0 0 55px #c66d2d, 0 0 65px #c66d2d;
+    }
+    to{
+        text-shadow: 0 0 7px #fff, 0 0 17px #f3b628, 0 0 27px #f3b628, 0 0 47px #f3b628, 0 0 57px #f3b628, 0 0 67px #f3b628, 0 0 77px #f3b628;
+    }  
+}
+
+@media screen and (max-width:768px) {
+    .div-timer{
+        font-size: 40px;
+        top: 200px;
+    }
+}
