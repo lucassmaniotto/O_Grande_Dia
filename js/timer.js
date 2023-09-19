@@ -1,5 +1,5 @@
 export const startTimer = () => {
-  let countDownDate = new Date("September 20, 2023 18:00:00").getTime();
+  let countDownDate = new Date("September 19, 2023 18:00:00").getTime();
 
   const timer = setInterval(function() {
     let now = new Date().getTime();
