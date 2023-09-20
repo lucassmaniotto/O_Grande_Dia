@@ -2,6 +2,7 @@
 @import url('./fog.css');
 @import url('./timer.css');
 @import url('./custom-swal2.css');
+@import url('./firework.css');
 
 @font-face {
     font-family: "CustomFont";
@@ -12,4 +13,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }

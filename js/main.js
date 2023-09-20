@@ -30,4 +30,10 @@ function confirmPlayMusic() {
   });
 }
 
+function disableScroll() {
+  document.body.style.overflow = 'hidden';
+}
+
+disableScroll();
+
 confirmPlayMusic();
